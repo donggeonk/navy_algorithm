@@ -1,2 +1,2 @@
-<Week 7 : Queue, Dequeue> <br>
-https://blog.naver.com/kks227/220781851401
+<Week 7 : Stack> <br>
+https://blog.naver.com/kks227/220781557098
