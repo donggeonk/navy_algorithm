@@ -25,7 +25,7 @@ int bfs(){
         }
         
         nx = x - D;
-        if (nx >= 0 && !visited[nx]){
+        if (nx > 0 && !visited[nx]){
             visited[nx] = true;
             q.push(nx);
             dist[nx] = dist[x] + 1;
