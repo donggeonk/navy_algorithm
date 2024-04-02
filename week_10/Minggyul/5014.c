@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 #define FASTIO ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 using namespace std;
 
@@ -40,7 +40,8 @@ int main(){
     
     cin >> F >> S >> G >> U >> D;
     int temp = bfs();
-    if (temp == -1) cout << "use the stairs\n";
+    if (S == G) cout << 0;
+    else if (temp == -1) cout << "use the stairs\n";
     else cout << temp;
     return 0;
 }
